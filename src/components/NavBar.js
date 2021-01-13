@@ -37,9 +37,21 @@ export default function NavBar() {
                         About
                     </NavLink>
                 </nav>
-                <div>
-                    <SocialIcon url="" className="mr-4" target="_blank" fgColor="#fff" style={{height:35, width: 35}}/>
-                    <SocialIcon url="" className="mr-4" target="_blank" fgColor="#fff" style={{height:35, width: 35}}/>
+                <div className="inline-flex py-3 px-3 my-6">
+                    <SocialIcon 
+                    url="https://www.linkedin.com/in/joshbrade/" 
+                    className="mr-4" 
+                    target="_blank" 
+                    fgColor="#fff" 
+                    style={{height:35, width: 35}}
+                    />
+                    <SocialIcon 
+                    url="https://github.com/susreboot/" 
+                    className="mr-4" 
+                    target="_blank" 
+                    fgColor="#fff" 
+                    style={{height:35, width: 35}}
+                    />
                 </div>
             </div>
         </header>

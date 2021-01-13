@@ -6936,6 +6936,12 @@ react-refractor@^2.1.2:
     unist-util-filter "^2.0.2"
     unist-util-visit-parents "^3.0.2"
 
+react-social-icons@^4.1.0:
+  version "4.1.0"
+  resolved "https://registry.npmjs.org/react-social-icons/-/react-social-icons-4.1.0.tgz#d8c1f846783cba15ae0e75704377bc67805f4c20"
+  dependencies:
+    prop-types "^15.6.2"
+
 react-sortable-hoc@^1.11.0:
   version "1.11.0"
   resolved "https://registry.npmjs.org/react-sortable-hoc/-/react-sortable-hoc-1.11.0.tgz#fe4022362bbafc4b836f5104b9676608a40a278f"
@@ -6974,12 +6980,13 @@ react-tiny-virtual-list@^2.0.5:
   dependencies:
     prop-types "^15.5.7"
 
-react@^17.0:
-  version "17.0.1"
-  resolved "https://registry.npmjs.org/react/-/react-17.0.1.tgz#6e0600416bd57574e3f86d92edba3d9008726127"
+react@^16.0:
+  version "16.14.0"
+  resolved "https://registry.npmjs.org/react/-/react-16.14.0.tgz#94d776ddd0aaa37da3eda8fc5b6b18a4c9a3114d"
   dependencies:
     loose-envify "^1.1.0"
     object-assign "^4.1.1"
+    prop-types "^15.6.2"
 
 read-cache@^1.0.0:
   version "1.0.0"
